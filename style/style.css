@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+html{
+    background-color: #cfdbd5;
+}
+
+.card{
+    border-top:15px solid #7209b7;
+    width: 50%;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 3em auto;
+    background-color: #fdfffc;
+}
+
+h1{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 35px;
+}
+p{
+    border-bottom: 2px solid grey;
+    padding-bottom: 1em;
+}
+.card:nth-of-type(2){
+    border: hidden;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+.input-area{
+    border: hidden ;
+    font-size: 18px;
+    border-bottom: 2px solid #cfdbd5;
+    transition: border-bottom 0.3s cubic-bezier(0.05, 0.95, 0.94, 0.06);
+    margin-bottom: 4em;
+}
+.input-area:focus{
+    outline: none;
+    border-bottom: 3px solid #7209b7;
+}
+
+button{
+    padding: 1em;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fdfffc;
+    border-color: #cfdbd5;
+    transition: all 0.3s;
+}
+button:hover{
+    transform: translateY(-10px);
+    border: 3px solid #7209b7;
+}
+a{
+    text-decoration: none;
+    color: #94d2bd;
+}
